@@ -50,9 +50,25 @@ function expect(target) {
 //
 // Only add code to *THIS* section!
 
-// ????????
-// ????????
-// ????????
+function Dog() {
+  this.status = 'normal';
+  this.color = 'black';
+  this.hungry = true
+}
+Human.prototype.pet = function() {
+  sadie.status = 'happy';
+  sadie.hungry = false;
+  mason.cool = false;
+}
+
+Human.prototype.feed = function() {
+  moonshine.hungry = false;
+}
+
+
+function Human() {
+  this.cool = true;
+}
 
 //        __
 //   ____/ /___  ____ ______
